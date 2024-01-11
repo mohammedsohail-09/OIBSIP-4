@@ -2,7 +2,7 @@ import requests
 
 params = {
   'access_key': 'b138dfaed1edb38d4229ad1fa793de66',
-  'query': 'Saudi Arabia'
+  'query': ' '
 }
 
 api_result = requests.get('http://api.weatherstack.com/current', params)
